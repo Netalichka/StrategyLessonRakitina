@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using 
+using System;
+using System.Linq;
 
 public class MouseInteractionPresenter : MonoBehaviour
 {
     [SerializeField] private Camera _camera;
-    private void Update()
+     public void Update()
     {
         if (!Input.GetMouseButtonUp(0))
         {
