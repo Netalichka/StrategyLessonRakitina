@@ -505,6 +505,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6115055191769583579, guid: 0c10f8e7dae19a741938bcbf847384f1, type: 3}
   m_PrefabInstance: {fileID: 529588643}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &640784599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6900081792394514883, guid: bf6a3a31455e04541a9eb40e4c5f6131, type: 3}
+  m_PrefabInstance: {fileID: 122914708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +613,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 780282876}
+  - component: {fileID: 780282877}
   m_Layer: 0
   m_Name: Buildings
   m_TagString: Untagged
@@ -631,6 +637,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &780282877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780282875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41d3cd8b70755c4585de9f13f4b67a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unitPrefab: {fileID: 640784599}
+  _unitsParent: {fileID: 0}
 --- !u!1001 &809548260
 PrefabInstance:
   m_ObjectHideFlags: 0
